@@ -12,7 +12,7 @@ class Ship(Sprite):
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load the ship image and get its rect.
-        self.image = pygame.image.load('space_ship.bmp')
+        self.image = pygame.image.load('./alien_invastion2/space_ship.bmp')
         self.image = pygame.transform.scale(self.image, (50, 50))
         self.rect = self.image.get_rect()
 
